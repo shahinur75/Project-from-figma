@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* this style for whole website */
+a{
+	text-decoration: none;
+	color: black;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+	list-style: none;
+}
+:root{
+    --site-max-width: 1350px;
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 70px;
+	justify-content: center;
+	align-content: center;
+}
+
+nav{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+nav .site-logo{
+	
+}
+nav .site-logo img{
+	width: 50%;
+}
+.main-menu ul {
+	display: flex;
+	gap:10px;
+}
+.header-button button{
+	background-color: #FF6B00;
+	border-color: #FF6B00;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: none;
+}
+.header-button button a{
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+/*Hero Section*/
+.wrapper{
+    background-color: #FFF5EA;
+    align-content: center;
+	height: calc(100vh);
+}
+.hero-container{
+    align-content: center;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+.hero-container .hero-text{
+	width: 100%;
+	padding-left: 10%;
+}
+.hero-container .hero-text h2{
+	color: black;
+	line-height: 36px;
+	font-weight: 400px;
+	font-size: 50px;
+	line-height: 50px;
+}
+.hero-container .hero-text p{
+	text-align: left;
+	font-weight: 100;
+}
+.hero-container .hero-text .cvbtn{
+	background-color: #FF6B00;
+	border-color: #FF6B00;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: none;
+	box-shadow: none;
+	
+}
+.hero-container .hero-text .cvbtn a{
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+.hero-container .hero-img{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 77%;
+	align-content: center;
+	height:max-content;
+}
+
+.section-container{
+	height: calc(100vh);
+	padding-bottom: 10%;
+	align-content: center;
+	padding: 10% 10% 10% 10%;
+}
+.section-container .about{
+	display: flex;
+	gap:20px;
+	max-height: calc(100vh);
+}
+.section-container .about .img-part{
+	width: 40%;
+	height: auto;
+}
+.section-container .about .img-part img{
+	width: 100%;
+}
+.section-container .about .text-part{
+	padding-left: 20px;
+	width: 60%;
+	height: auto;
+	align-content: center;
+}
+.section-container .about .text-part #abt-btn{
+	background-color: #FF6B00;
+	border-color: #FF6B00;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+
+
