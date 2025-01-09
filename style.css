@@ -148,12 +148,16 @@ img{
 	align-content: center;
 	height:max-content;
 }
-
+/*About Section*/
 .section-container{
 	height: calc(100vh);
 	padding-bottom: 10%;
 	align-content: center;
-	padding: 10% 10% 10% 10%;
+	margin-top: 50px;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 30px;
+	overflow: hidden;
 }
 .section-container .about{
 	display: flex;
@@ -186,10 +190,9 @@ img{
 }
 /*Service Section*/
 .service_section{
-	
+	margin-top: 50px;
 }
 .services_section .my_service {
-	margin-top: 100px;
 	align-content: center;
 	align-items: center;
 	justify-content: center;
