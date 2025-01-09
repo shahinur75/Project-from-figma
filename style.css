@@ -86,7 +86,7 @@ nav .site-logo img{
 
 .header-button button{
 	background-color: #FF6B00;
-	border-color: #FF6B00;
+	border: none;
 	border-radius: 5px;
 	padding: 10px;
 	text-shadow: none;
@@ -127,7 +127,7 @@ nav .site-logo img{
 }
 .hero-container .hero-text .cvbtn{
 	background-color: #FF6B00;
-	border-color: #FF6B00;
+	border:none;
 	border-radius: 5px;
 	padding: 10px;
 	text-shadow: none;
