@@ -127,7 +127,7 @@ nav .site-logo img{
 }
 .hero-container .hero-text .cvbtn{
 	background-color: #FF6B00;
-	border:none;
+	border: none;
 	border-radius: 5px;
 	padding: 10px;
 	text-shadow: none;
@@ -183,4 +183,26 @@ img{
 	padding: 10px;
 	text-shadow: none;
 	box-shadow: none;
+}
+.services_section{
+	margin-top: 100px;
+}
+.services_section .service_container .my_service{
+	justify-items: center;
+}
+
+.grid_container{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 30px;
+}
+.grid_container div{
+	justify-items: center;
+	background-color:white;
+	border: 2px, solid,#FFF5EF;
+	padding: 50px;
+	text-align: center;
 }
