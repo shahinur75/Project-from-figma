@@ -117,6 +117,12 @@ nav .site-logo img{
 .hero-container .hero-text{
 	width: 100%;
 }
+.designer{
+	display:flex;
+}
+.designer svg{
+	padding-bottom: 5px;
+}
 .hero-container .hero-text h2{
 	color: black;
 	line-height: 36px;
@@ -173,11 +179,25 @@ img{
 .section-container .about .img-part img{
 	width: 100%;
 }
+.about-me{
+	display:flex;
+}
+.about-me svg{
+	padding-bottom: 5px;
+}
 .section-container .about .text-part{
 	padding-left: 20px;
 	width: 60%;
 	height: auto;
 	align-content: center;
+}
+.gl01{
+	display: flex;
+	gap: 5px;
+}
+.gl02{
+	display: flex;
+	gap: 5px;
 }
 .section-container .about .text-part #abt-btn{
 	background-color: #FF6B00;
@@ -203,7 +223,12 @@ img{
 .my_service{
 	justify-items: center;
 }
-
+.service-me{
+	display:flex;
+}
+.service-me svg{
+	padding-bottom: 5px;
+}
 .grid_container{
 	display:grid;
 	grid-template-columns: auto auto auto auto;
@@ -222,3 +247,52 @@ img{
 .grid_container div p{
 	font-size: 12px;
 }
+/*Resume Section*/
+.resume_section{
+	background-color: #FFF5EF;
+}
+.resume{
+	padding-top: 50px;
+	justify-items: center;
+}
+.my_resume{
+	display:flex;
+}
+.my_resume svg{
+	padding-bottom: 5px;
+}
+.resume_container{
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 30px;
+}
+.education{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+}
+.education div{
+	background-color: white;
+	padding: 20px;
+}
+.software{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+}
+.software div{
+	background-color: white;
+	padding: 20px;
+}
+.experience{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+}
+.experience div{
+	background-color: white;
+	padding: 20px;
+}
+
+
+
