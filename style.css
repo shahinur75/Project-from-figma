@@ -314,6 +314,7 @@ img{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap: 20px;
+	
 }
 .portfolioimg_grid div{
 	
@@ -323,6 +324,49 @@ img{
 	height: 100%;
 	object-fit: cover;
 }
+/*Client Section*/
 
+.client{
+	padding-top: 50px;
+	justify-items: center;
+}
+.cilent_feedback{
+	display:flex;
+}
+.cilent_feedback svg{
+	padding-bottom: 5px;
+}
+
+.feedback_container{
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 30px;
+}
+.feedback{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+	
+	
+}
+.div_parent1{
+	padding: 25px;
+	background-color: #FFF5EF;
+}
+.div_parent2{
+	padding: 25px;
+	background-color: #FFF5EF;
+}
+.div_parent3{
+	padding: 25px;
+	background-color: #FFF5EF;
+}
+.div_image{
+	display: flex;
+	
+}
+#div_img img{
+	width: 75%;
+}
 
 
