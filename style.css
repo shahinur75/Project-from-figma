@@ -221,9 +221,10 @@ img{
 	justify-self: center;
 }
 .my_service{
-	justify-items: center;
+	text-align: center;
 }
 .service-me{
+	justify-content: center;
 	display:flex;
 }
 .service-me svg{
@@ -254,8 +255,10 @@ img{
 .resume{
 	padding-top: 50px;
 	justify-items: center;
+	text-align: center;
 }
 .my_resume{
+	justify-content: center;
 	display:flex;
 }
 .my_resume svg{
@@ -265,6 +268,15 @@ img{
 	margin-left: 90px;
 	margin-right: 90px;
 	padding: 30px;
+}
+#edu{
+	text-align: left;
+}
+#soft{
+	text-align: left;
+}
+#exp{
+	text-align: left;
 }
 .education{
 	display:grid;
@@ -298,8 +310,10 @@ img{
 .portfolio{
 	padding-top: 50px;
 	justify-items: center;
+	text-align: center;
 }
 .my_portfolio{
+	justify-content: center;
 	display:flex;
 }
 .my_portfolio svg{
@@ -329,8 +343,10 @@ img{
 .client{
 	padding-top: 50px;
 	justify-items: center;
+	text-align: center;
 }
 .cilent_feedback{
+	justify-content: center;
 	display:flex;
 }
 .cilent_feedback svg{
@@ -372,9 +388,11 @@ img{
 .div_partner{
 	padding-top: 50px;
 	justify-items: center;
+	text-align: center;
 }
 .partner_name{
 	display:flex;
+	justify-content: center;
 }
 .partner_name svg{
 	padding-bottom: 5px;
@@ -400,8 +418,10 @@ img{
 .blog_div{
 	padding-top: 50px;
 	justify-items: center;
+	text-align: center;
 }
 .my_blog{
+	justify-content: center;
 	display:flex;
 }
 .my_blog svg{
