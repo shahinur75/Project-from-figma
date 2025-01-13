@@ -241,7 +241,7 @@ img{
 .grid_container div{
 	justify-items: center;
 	background-color:white;
-	border: 2px, solid, #FFF5EA;
+	border: 2px solid #FFF5EA;
 	padding: 30px;
 	text-align: center;
 }
