@@ -452,5 +452,104 @@ img{
 .blogtext{
 	padding: 20px;
 }
+/*Contact Section*/
+.contact_div{
+	padding-top: 50px;
+	justify-items: center;
+	text-align: center;
+}
+.my_contact{
+	justify-content: center;
+	display:flex;
+}
+.my_contact svg{
+	padding-bottom: 5px;
+}
+.contact_container{
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 30px;
+}
+/*past*/
+.contact_container{
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.form_container{
+	max-width: 55%;
+	width: 100%;
+}
+.nameemail{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+.numbersub{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+.form_container form{
+	margin-top: 20px;
+}
+
+.contact_container .form_container .field input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	border: 1px solid #FFE2D1;
+	border-radius: 4px;
+}
+.field input{
+	padding: 10px;
+}
+
+.contact_container .form_container .field textarea{
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	font-size: 16px;
+	border: 1px solid #FFE2D1;
+	border-radius: 4px;
+}
+.field textarea{
+	padding: 10px;
+}
+.btn{
+	background-color: #FF6B00;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: none;
+	color: white;
+}
+.contact-text{
+	max-width: 45%;
+}
+
+.contact-text .contact-items{
+	display: flex;
+	gap: 20px;
+	margin: 20px 0;
+	padding-bottom: 50px;
+}
+.contact-items div svg{
+	margin-top: 15px;
+}
+.contact-text .contact-items:first-child{
+}
+
+.contact-text .contact-items i{
+	font-size: 20px;
+	margin: 14px 10px;
+}
+
+.contact-items .contact-details h3{
+	margin: 10px 0;
+}
 
 
